@@ -1,3 +1,5 @@
 Oggy
 Jack
 Tom
+Jerry
+Salmon
