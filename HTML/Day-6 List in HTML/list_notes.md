@@ -14,7 +14,7 @@
   It is group of related items represented in an unordered way i.e, bullets are not following any sequence.
 
   To create unordered list we use <ul></ul> tag. It is container tag.
-
+with a description of each
   To create list item we use <li></li> tag.
 
 # Attribute of Unordered List: 
@@ -25,7 +25,7 @@
 
 
 # Desciption List/ Dictionary List/ Definition List:-
-1. Description list is a list of term with a description of each term.
+1. Description list is a list of term  term.
 2. To create description list we use <dl></dl> tag. It is container tag.
 3. To create description term we use <dt></dt> tag. 
 4. To create description definition we use <dd></dd> tag.
