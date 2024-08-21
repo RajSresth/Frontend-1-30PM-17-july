@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table (Part-3)</title>
+    <style>
+        tbody,tfoot{
+            background-color: #dbd1f9;
+        }
+        thead{
+            background-color: black;
+            color: white;
+        }
+        /* table,tr,td,th{
+            border-collapse: collapse;
+        } */
+
+       
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="20px">
+        <thead>
+            <!-- Row-1 -->
+            <tr align="center">
+                <th>Days</th>
+                <th>1<sup>st</sup> Half</th>
+                <th>BREAK</th>
+                <th>2<sup>nd</sup> Half</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Row-2 -->
+            <tr align="center">
+                <td>MONDAY</td>
+                <td>Java</td>
+                <td rowspan="5">LUNCH</td>
+                <td>DBMS</td>
+            </tr>
+            <!-- Row-3 -->
+            <tr align="center">
+                <td>TUESDAY</td>
+                <td>OS</td>
+                <td>NETWORKING</td>
+            </tr>
+            <!-- Row-4 -->
+            <tr align="center">
+                <td>WEDNESDAY</td>
+                <td>HTML</td>
+                <td>CSS</td>
+            </tr>
+            <!-- Row-5 -->
+            <tr align="center">
+                <td>THURSDAY</td>
+                <td>JAVASCRIPT</td>
+                <td>DSA</td>
+            </tr>
+            <!-- Row-6 -->
+            <tr align="center">
+                <td>FRIDAY</td>
+                <td>AI/ML</td>
+                <td>CYBER SECURITY</td>
+            </tr>
+        </tbody>
+       <tfoot>
+             <!-- Row-7 -->
+            <tr align="center">
+                <td>SATURDAY</td>
+                <td colspan="3">Week Off</td>
+            </tr>
+            <!-- Row-8-->
+            <tr align="center">
+                <td>SUNDAY</td>
+                <td colspan="3">HOLIDAY</td>
+            </tr>
+       </tfoot>
+    </table>
+</body>
+</html>

@@ -32,7 +32,6 @@
             </table>
 
 # Cell spanning:-
-
 In html, we have 2 ways to span the cells
 
 1. Rowspan:- Rowspan is an attribute used to span the cells on row basis.
@@ -46,3 +45,21 @@ In html, we have 2 ways to span the cells
 3. border:- It is used to provide border.
 4. rules=all
 5. align=center
+
+
+# Thead Tag:- 
+1. It is container tag.
+2. It represents top most part of our table.
+3. The top most part of our table we have to write with in <thead></thead> tag.
+
+# Tbody Tag:-
+1. It is container Tag.
+2. The remaining content of our table we have to write with in <tbody></tbody> tag.
+
+# Tfoot Tag:-
+1. It is container Tag.
+2. The consclusion or summary of the table we have to write with in <tfoot></tfoot> Tag.
+3. It represents bottom most part of our table.
+
+# Note:- 
+        Thead,Tbody and Tfoot tag are highly recommended for better explanation to crawler and code understanding purpose.
