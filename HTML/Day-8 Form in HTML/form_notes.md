@@ -90,8 +90,7 @@ The minlength attribute specifies the minimum number of characters allowed in an
 # 15. step:- 
   step Attribute is used to set the discrete step size of an input tag. The default stepping value for number inputs is 1
 
-  It works with :-
-  
+  It works with :-  
     number
     range
     date

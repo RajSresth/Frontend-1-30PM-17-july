@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form (Part-2)</title>
+    <style>
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" autocomplete="off">
+        Name <input type="text" name="user-name" placeholder="Enter Your Full name" size="40" autofocus minlength="2" maxlength="16" ><br><br>
+        Mobile <input type="tel" name="mobile-number" placeholder="Enter mobile number" minlength="10" maxlength="10"><br><br>
+        Email<sup>*</sup> <input type="email" name="user-email" placeholder="xyz@gmail.com" required><br><br>
+        Password<sup>*</sup> <input type="password" name="password" placeholder="at least 8 characters" required><br><br>
+        calculate 10*2 <br>
+        <input type="number" min="0" max="100" step="10" > <br><br>
+        Select salary range <br>
+        <input type="range" min="0" max="100" step="20" value="0"> <br><br>
+        Submit your resume <br>
+        <input type="file" accept=".pdf"> <br><br>
+        <input type="submit" value="Create Your Account">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
