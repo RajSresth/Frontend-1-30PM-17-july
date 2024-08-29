@@ -160,7 +160,6 @@ syntax:-
       </select>
 
 # Disadvantage of Select Tag
-
     1. The main disadvantage of the select tag is that it limits the user's input options to the predefined list of options provided by the developer using the option tags.
 
     2. The user cannot enter any text of their choice or customize the options available in the list.
@@ -204,3 +203,7 @@ syntax:-
 
  # syntax:- 
   <textarea rows="10" cols="30" name="" id=""></textarea>
+
+
+  # Diff between input type submit and button tag?
+  # Diff between id and class? 

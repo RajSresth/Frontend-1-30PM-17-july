@@ -36,9 +36,35 @@
                 <option value="2021">2021</option>
             </select>
             <br><br>
+            <!-- Datalist -->
+                <input type="text" name="state" placeholder="Enter State Name" list="state-list">
+                <datalist id="state-list">
+                    <option value="Delhi"></option>
+                    <option value="Andhra Pradesh"></option>
+                    <option value="Arunachal Pradesh"></option>
+                    <option value="Maharashtra"></option>
+                    <option value="Madhya Pradesh"></option>
+                    <option value="Uttarakhand"></option>
+                </datalist>
+                <br><br>
 
-            <input type="submit" value="Login">
-            <input type="reset" value="Cancel">
+                <label for="state-list">
+                    User Feedback Details
+                </label>
+                <textarea name="feedback" id="state-list" rows="10" cols="30" placeholder="write something..!!"></textarea>
+
+            <br><br>
+            <!-- <input type="submit" value="Login">
+            <input type="reset" value="Cancel"> -->
+            <button type="submit">
+                Create Your Account
+            </button>
+            <button type="reset">
+                Cancel
+            </button>
+
+            <button type="menu">Menu</button>
+            <button type="button">Pay</button>
        </fieldset>
     </form>
 </body>
