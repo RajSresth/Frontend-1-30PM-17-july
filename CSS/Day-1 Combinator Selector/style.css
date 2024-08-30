@@ -1,0 +1,14 @@
+/* Descendent Selector
+article p{
+    color: blue;
+} */
+
+/* Direct Child Selector */
+article>.child1{
+    color: mediumvioletred;
+}
+
+
+article>main>p{
+    color: orange;
+}

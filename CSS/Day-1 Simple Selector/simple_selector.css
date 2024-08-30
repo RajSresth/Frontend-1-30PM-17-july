@@ -1,0 +1,28 @@
+/* Tagname Selector 
+div{
+    color: magenta;
+} */
+
+/* Id Selector #
+#div2{
+    color: red;
+} */
+
+/* Class Selector . */
+.same{
+    color: orange;
+}
+
+.div2{
+    color: slateblue;
+}
+
+/* Universal Selector * */
+*{
+    font-size: 25px;
+}
+
+/* Grouping Selector */
+.same,p{
+    color:mediumseagreen;
+}
