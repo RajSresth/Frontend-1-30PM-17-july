@@ -1,0 +1,43 @@
+/* article :nth-child(odd){
+    color: orangered;
+}
+article>:nth-child(even){
+    color: purple;
+}
+
+article>:nth-child(2),:nth-child(4),:nth-child(5){
+    color: blue;
+} */
+
+/* article :nth-last-child(2){
+    color: orangered;
+} */
+
+
+/* article span:nth-last-of-type(3){
+    color: blue;
+} */
+a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+
+a:active{
+    color: deepskyblue;
+}
+
+a:visited{
+    color: goldenrod;
+}
+
+a:hover{
+    text-decoration: underline red;
+}
+input:focus{
+    outline-offset:2px;
+    outline:2px solid rgb(251, 188, 188) ;    
+    border-radius: 3px;
+    border-color:red ;
+}

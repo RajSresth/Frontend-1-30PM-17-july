@@ -1,0 +1,50 @@
+div::first-letter{
+    font-size: 25px;
+    font-style:italic;
+    color: red;
+}
+
+p::first-line{
+    color: deeppink;
+    font-size: 22px;
+    font-style: italic;
+}
+
+p::selection{
+    background-color: green;
+    color: white;
+}
+
+*::selection{
+    background-color: orangered;
+    color: white;
+}
+
+/* ul>li::marker{
+    content: "❤️ ";
+ 
+} */
+
+/* ol>li:nth-of-type(odd)::marker{
+    content: "😒 ";
+}
+
+ol>li:nth-of-type(even)::marker{
+    content: "😋 ";
+}
+ol>li:nth-last-of-type(1)::marker{
+    content: "🤮 ";
+} */
+
+/* ol>li::marker{
+    content: "\f290";
+    font-family: "Font Awesome 6 Free";
+    font-family: 900;
+} */
+
+/* input:focus{
+    outline-offset:1px;
+    outline:2px solid rgb(241, 147, 147);
+    border: 2px solid red;
+    border-radius: 2.5px;
+} */
