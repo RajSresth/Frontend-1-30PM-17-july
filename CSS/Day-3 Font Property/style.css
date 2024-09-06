@@ -1,0 +1,15 @@
+/* Google fonts import
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+ */
+
+@font-face {
+    font-family:'chombu';
+    src: url('./Font/DancingScript-SemiBold.ttf');
+}
+
+div{
+    font-size: 105px;
+    font-weight: bold;
+    font-style:oblique 25deg;
+    font-family: 'chombu';
+}

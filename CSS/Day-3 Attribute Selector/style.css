@@ -1,0 +1,15 @@
+button[type="submit"]{
+    background-color: rgb(23, 120, 212);
+    color: white;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+button[type="reset"]{
+    background-color: rgb(158, 9, 9);
+    color: white;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
