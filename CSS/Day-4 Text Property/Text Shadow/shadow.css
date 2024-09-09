@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+div{
+    font-size: 125px;
+    color: white;
+    text-shadow: -300px -200px 0px orange,
+                  300px 200px 0px green,
+                  300px -200px 0px deeppink,
+                  -300px 200px 0px deepskyblue;
+}
