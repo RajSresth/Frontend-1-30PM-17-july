@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+div{
+    font-size: 125px;
+    background-image: linear-gradient(to right, #2fb2c6, #00a3dc, #008eec, #5c6fe7, #a63ac4);
+    color: transparent;
+    background-clip: text;
+}
