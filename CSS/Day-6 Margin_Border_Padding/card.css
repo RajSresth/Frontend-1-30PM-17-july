@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 30px;
+}
+.card{
+    width: 350px;
+    height: 480px;
+    /* border: 2px solid black; */
+    padding-bottom: 20px;
+    overflow: auto;
+    box-shadow: 1px 1px 12px 0px rgb(88, 88, 88);
+}
+
+.card:hover{
+    box-shadow:inset 3px 3px 18px 5px rgb(78, 78, 78);
+    cursor: pointer;
+}
+.card .profile{
+    width: 100%; /* 350px*/
+    height: 80%; /* 322px*/
+}
+.card .profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.card h2{
+    /* background-color: red; */
+    text-align: center;
+    margin:15px 0px 25px;
+}
+.card .btn-container{
+    /* background-color: red; */
+    text-align: center;
+}
+.card .btn-container a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border-radius: 8px;
+}
+.card .btn-container a:first-of-type{
+    margin-right:20px ;
+}
+
+.card .btn-container a:first-of-type:hover{
+    background-color: rgb(15, 114, 159);
+}
+.card .btn-container a:last-of-type:hover{
+    background-color: rgb(129, 10, 10);
+}
+
+.card-2 .profile img{
+    object-position:-190px 0px;
+}
