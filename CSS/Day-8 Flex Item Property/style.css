@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 1100px;
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card{
+    width: 200px;
+    height: 200px;
+}
+.card-1{
+    background-color: purple;
+    order: 3;
+    align-self: center;
+}
+.card-2{
+    background-color: orangered;
+    /* flex-basis: 400px; */
+    order: 2;
+    align-self: flex-end; 
+}
+.card-3{
+    background-color: mediumseagreen;
+    order: 1;
+    align-self: center;
+}
