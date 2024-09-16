@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", system-ui;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+/* Top Section */
+#top{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/30/3a/3c/mesmerizing.jpg?w=1200&h=-1&s=1');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/* Header  */
+#header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 254, 254, 0.752);
+    backdrop-filter: blur(4px);
+}
+#header .logo{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#header nav{
+    display: flex;
+    gap: 0 10px;
+}
+#header nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 30px;
+    font-size: 19px;
+    font-weight: 500;
+}
+#header nav a:hover{
+    background-color: rgba(156, 154, 154, 0.5);    
+}
+
+/* Hero Section */
+#hero{
+    width: 100%;
+    height: auto;
+    /* background-color: lightcoral; */
+    padding:75px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px 0px;
+}
+#hero article{
+    width: 1200px;
+    padding: 50px 100px;
+    background-color: #ffffffc9;
+    box-shadow: 0px 0px 15px 1px lightgray;
+}
+
+#hero article h1{
+    font-size: 45px;
+    font-weight: 520;    
+}
+#hero article p{
+    margin-block: 20px 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+#hero article a{
+    width: 250px;
+    height: 60px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 520;
+    color: white;
+    background-color: #088178;
+}
+
+#hero article:hover a{
+    background-color: #000;
+}
+#hero article:hover{
+    cursor: pointer;    
+    box-shadow: 0px 0px 15px 1.5px rgb(125, 125, 125);
+}
