@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+section article{
+    width: 1347px;
+    height: 641px;
+    /* background-color: lightcoral; */
+}
+section .top{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-bottom: 32px;
+}
+section .top h2{
+    width: 1010px;
+    height: 100%;
+    /* background-color: lightgreen; */
+    font-weight: 500;
+    color: white;
+}
+section .top .arrow{
+    width: calc(100% - 1010px);
+    height: 100%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 15px;    
+}
+section .top .icon{
+    cursor: pointer;
+}
+section .top .arrow i{
+    color: white;
+    font-size: 18px;
+    
+}
+section .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+} 
+section .cards .card{
+    width: 427px;
+    height: 569px;
+    /* border: 1px solid black; */
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+section .cards .card::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition:background 0.5s linear 0s;
+}
+
+
+section .cards .card img{
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+    scale: 1;
+    transition:scale 0.5s linear 0s;
+}
+section .card:hover img{
+    scale: 1.25;
+}
+section .card .content{
+    width: 346px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+    z-index: 3;
+}
+section .card .content h3{
+    width: 100%;
+    height: 192px;
+    /* background-color: red; */
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+section .card .content span{
+    color: white;
+    border-bottom: 1.75px solid transparent;    
+    transition:scale 0.5s linear 0s;
+}
+section .card .content span a{
+    color: white;
+    text-decoration: none;
+    font-weight: 520;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+section .card:hover span{
+    border-bottom: 1.75px solid #007aff;    
+}
+
+section .card:hover::after{
+    background: linear-gradient(0deg, #000,#000000cc, transparent);
+}
+
+section .cards .card3 .content{
+    height: 290px;
+}
+section .cards .card2 .content{
+    width: 355px;
+    height: 178px;
+    /* background-color: orange; */
+}
+section .card2 .content h3{
+    font-size: 30px;
+}
+
+section article .top .left i{
+    color: #3f3f3f;
+}
